@@ -18,13 +18,13 @@ COMMAND LINE ARGUMENTS:
 -name
 AssetImportWorker0
 -projectPath
-/Users/sergei/MyFirstProject
+/Users/sergei/teachmeskills/MyFirstProject
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53757
-Successfully changed project path to: /Users/sergei/MyFirstProject
-/Users/sergei/MyFirstProject
+62777
+Successfully changed project path to: /Users/sergei/teachmeskills/MyFirstProject
+/Users/sergei/teachmeskills/MyFirstProject
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -54,15 +54,15 @@ Successfully changed project path to: /Users/sergei/MyFirstProject
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8642500224] Host "[IP] 192.168.1.167 [Port] 0 [Flags] 2 [Guid] 1090459568 [EditorId] 1090459568 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro.lan) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8642500224] Host "[IP] 192.168.1.167 [Port] 0 [Flags] 2 [Guid] 1408592323 [EditorId] 1408592323 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro.lan) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [8642500224] Host "[IP] 192.168.1.167 [Port] 0 [Flags] 2 [Guid] 1090459568 [EditorId] 1090459568 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro.lan) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8642500224] Host "[IP] 192.168.1.167 [Port] 0 [Flags] 2 [Guid] 1408592323 [EditorId] 1408592323 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro.lan) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 67.52 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 72.32 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.17f1 (3e8111cac19d)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.17f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/sergei/MyFirstProject/Assets
+[Subsystems] Discovering subsystems at path /Users/sergei/teachmeskills/MyFirstProject/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
  preferred device: Apple M1 Pro (high power)
 Metal devices available: 1
@@ -73,201 +73,94 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.17f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.17f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.17f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56761
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56599
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.17f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.17f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.001728 seconds.
+Registered in 0.002616 seconds.
 Native extension for Android target not found
-Multiple ADB server instances found, the following ADB server instance have been terminated due to being run from another SDK. Process paths: 
-/Users/sergei/Library/Android/sdk/platform-tools/adb
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-UnityEditor.Android.AndroidDeploymentTargetsExtension:GetKnownTargets (UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext,UnityEditor.ProgressHandler)
-UnityEditor.Android.TargetScanWorker:ScanSync ()
-UnityEditor.Android.TargetExtension:OnUsbDevicesChanged (UnityEditor.Hardware.UsbDevice[])
-UnityEditor.Android.TargetExtension:OnLoad ()
-UnityEditor.Modules.ModuleManager:InitializePlatformSupportModules () (at /Users/bokken/build/output/unity/unity/Editor/Mono/Modules/ModuleManager.cs:147)
-
-(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/Modules/ModuleManager.cs Line: 147)
-
-Unable to list connected devices. 
-* daemon not running; starting now at tcp:5037
-ADB server didn't ACK
-Full server startup log: /var/folders/yb/082v_y852mqfcbmk7g10zg8m0000gn/T//adb.501.log
-Server had pid: 27770
---- adb starting (pid 27770) ---
-adb I 01-30 20:49:31 27770 33043684 main.cpp:62] Android Debug Bridge version 1.0.41
-adb I 01-30 20:49:31 27770 33043684 main.cpp:62] Version 30.0.4-6686687
-adb I 01-30 20:49:31 27770 33043684 main.cpp:62] Installed as /Applications/Unity/Hub/Editor/2021.3.17f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb
-adb I 01-30 20:49:31 27770 33043684 main.cpp:62] 
-adb I 01-30 20:49:31 27769 33043685 main.cpp:62] Android Debug Bridge version 1.0.41
-adb I 01-30 20:49:31 27769 33043685 main.cpp:62] Version 30.0.4-6686687
-adb I 01-30 20:49:31 27769 33043685 main.cpp:62] Installed as /Applications/Unity/Hub/Editor/2021.3.17f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb
-adb I 01-30 20:49:31 27769 33043685 main.cpp:62] 
-adb E 01-30 20:49:31 27769 33043692 usb_osx.cpp:342] Could not open interface: e00002c5
-adb E 01-30 20:49:31 27769 33043692 usb_osx.cpp:303] Could not find device interface
-adb I 01-30 20:49:31 27770 33043693 usb_osx.cpp:310] reported max packet size for R5CRC3G3D6N is 512
-adb I 01-30 20:49:31 27769 33043685 auth.cpp:417] adb_auth_init...
-adb I 01-30 20:49:31 27769 33043685 auth.cpp:152] loaded new key from '/Users/sergei/.android/adbkey' with fingerprint A1164B2EE8593FF08288608EFDFE4DE41B6B1299E3F7007A6675AE5EE14650AD
-adb F 01-30 20:49:31 27770 33043684 main.cpp:153] could not install *smartsocket* listener: Address already in use
-
-* failed to start daemon
-adb: failed to check server version: cannot connect to daemon
-
-UnityEditor.Android.CommandInvokationFailure: Unable to list connected devices. 
-/Applications/Unity/Hub/Editor/2021.3.17f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb devices
-
-Environment Variables:
-XPC_SERVICE_NAME = application.com.unity3d.unityhub.35822607.35822613
-XPC_FLAGS = 0x0
-JAVA_TOOL_OPTIONS = -Dfile.encoding=UTF-8
-MallocNanoZone = 0
-ORIGINAL_XDG_CURRENT_DESKTOP = undefined
-SHELL = /bin/zsh
-SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.8QaDhhRQJK/Listeners
-HOME = /Users/sergei
-PATH = hello
-/Users/sergei/.rbenv/shims:/usr/local/opt/ruby/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands
-
-__CFBundleIdentifier = com.unity3d.unityhub
-USER = sergei
-__CF_USER_TEXT_ENCODING = 0x1F5:0x7:0x31
-TMPDIR = /var/folders/yb/082v_y852mqfcbmk7g10zg8m0000gn/T/
-LOGNAME = sergei
-COMMAND_MODE = unix2003
-
-
-stderr[
-* daemon not running; starting now at tcp:5037
-ADB server didn't ACK
-Full server startup log: /var/folders/yb/082v_y852mqfcbmk7g10zg8m0000gn/T//adb.501.log
-Server had pid: 27770
---- adb starting (pid 27770) ---
-adb I 01-30 20:49:31 27770 33043684 main.cpp:62] Android Debug Bridge version 1.0.41
-adb I 01-30 20:49:31 27770 33043684 main.cpp:62] Version 30.0.4-6686687
-adb I 01-30 20:49:31 27770 33043684 main.cpp:62] Installed as /Applications/Unity/Hub/Editor/2021.3.17f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb
-adb I 01-30 20:49:31 27770 33043684 main.cpp:62] 
-adb I 01-30 20:49:31 27769 33043685 main.cpp:62] Android Debug Bridge version 1.0.41
-adb I 01-30 20:49:31 27769 33043685 main.cpp:62] Version 30.0.4-6686687
-adb I 01-30 20:49:31 27769 33043685 main.cpp:62] Installed as /Applications/Unity/Hub/Editor/2021.3.17f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb
-adb I 01-30 20:49:31 27769 33043685 main.cpp:62] 
-adb E 01-30 20:49:31 27769 33043692 usb_osx.cpp:342] Could not open interface: e00002c5
-adb E 01-30 20:49:31 27769 33043692 usb_osx.cpp:303] Could not find device interface
-adb I 01-30 20:49:31 27770 33043693 usb_osx.cpp:310] reported max packet size for R5CRC3G3D6N is 512
-adb I 01-30 20:49:31 27769 33043685 auth.cpp:417] adb_auth_init...
-adb I 01-30 20:49:31 27769 33043685 auth.cpp:152] loaded new key from '/Users/sergei/.android/adbkey' with fingerprint A1164B2EE8593FF08288608EFDFE4DE41B6B1299E3F7007A6675AE5EE14650AD
-adb F 01-30 20:49:31 27770 33043684 main.cpp:153] could not install *smartsocket* listener: Address already in use
-
-* failed to start daemon
-adb: failed to check server version: cannot connect to daemon
-]
-stdout[
-
-]
-exit code: 1
-  at UnityEditor.Android.Command.WaitForProgramToRun (UnityEditor.Utils.Program p, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x00033] in <aaeae74643ed46228b1c474294410bef>:0 
-  at UnityEditor.Android.Command.Run (System.Diagnostics.ProcessStartInfo psi, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x0002d] in <aaeae74643ed46228b1c474294410bef>:0 
-  at UnityEditor.Android.Command.Run (System.String command, System.String args, System.String workingdir, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x0000a] in <aaeae74643ed46228b1c474294410bef>:0 
-  at UnityEditor.Android.ADB.RunInternal (System.String[] command, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x0001e] in <aaeae74643ed46228b1c474294410bef>:0 
-  at UnityEditor.Android.ADB.Run (System.String[] command, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x00013] in <aaeae74643ed46228b1c474294410bef>:0 
-  at UnityEditor.Android.AndroidDeploymentTargetsExtension.GetKnownTargets (UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext context, UnityEditor.ProgressHandler progressHandler) [0x00284] in <aaeae74643ed46228b1c474294410bef>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-UnityEditor.Android.AndroidDeploymentTargetsExtension:GetKnownTargets (UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext,UnityEditor.ProgressHandler)
-UnityEditor.Android.TargetScanWorker:ScanSync ()
-UnityEditor.Android.TargetExtension:OnUsbDevicesChanged (UnityEditor.Hardware.UsbDevice[])
-UnityEditor.Android.TargetExtension:OnLoad ()
-UnityEditor.Modules.ModuleManager:InitializePlatformSupportModules () (at /Users/bokken/build/output/unity/unity/Editor/Mono/Modules/ModuleManager.cs:147)
-
-(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/Modules/ModuleManager.cs Line: 147)
-
-Android Extension - Scanning For ADB Devices 818 ms
+Android Extension - Scanning For ADB Devices 106 ms
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 70.47 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 70.24 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.286 seconds
+- Completed reload, in  0.613 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1286ms)
-		BeginReloadAssembly (63ms)
+	ReloadAssembly (614ms)
+		BeginReloadAssembly (61ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (1153ms)
-			LoadAssemblies (63ms)
+		EndReloadAssembly (476ms)
+			LoadAssemblies (62ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (74ms)
+			SetupTypeCache (87ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (19ms)
-			SetupLoadedEditorAssemblies (1032ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (333ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (890ms)
+				InitializePlatformSupportModulesInManaged (180ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (70ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (47ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
+				ProcessInitializeOnLoadAttributes (55ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001938 seconds.
+Registered in 0.006111 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/sergei/MyFirstProject/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/sergei/MyFirstProject/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/sergei/teachmeskills/MyFirstProject/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/sergei/teachmeskills/MyFirstProject/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.697 seconds
+- Completed reload, in  0.744 seconds
 Domain Reload Profiling:
-	ReloadAssembly (697ms)
-		BeginReloadAssembly (61ms)
+	ReloadAssembly (745ms)
+		BeginReloadAssembly (60ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (564ms)
-			LoadAssemblies (36ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (603ms)
+			LoadAssemblies (56ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (199ms)
+			SetupTypeCache (210ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (229ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (234ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (69ms)
-				ProcessInitializeOnLoadAttributes (130ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (140ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.3.17f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3376 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (341.2 KB). Loaded Objects now: 3835.
-Memory consumption went from 110.5 MB to 110.2 MB.
-Total: 2.735750 ms (FindLiveObjects: 0.118334 ms CreateObjectMapping: 0.040166 ms MarkObjects: 2.488417 ms  DeleteObjects: 0.087625 ms)
+Unloading 3383 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (321.5 KB). Loaded Objects now: 3844.
+Memory consumption went from 111.4 MB to 111.1 MB.
+Total: 2.965417 ms (FindLiveObjects: 0.109666 ms CreateObjectMapping: 0.039584 ms MarkObjects: 2.756083 ms  DeleteObjects: 0.059375 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -281,205 +174,61 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 3242425.905130 seconds.
-  path: Assets/PhysM/New Physic Material.physicMaterial
-  artifactKey: Guid(2498fe00048804865b0304088177893c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PhysM/New Physic Material.physicMaterial using Guid(2498fe00048804865b0304088177893c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c75fb9a210800c5669180e809217c510') in 0.056218 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002692 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x17e10f000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/sergei/MyFirstProject/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/sergei/MyFirstProject/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.677 seconds
-Domain Reload Profiling:
-	ReloadAssembly (678ms)
-		BeginReloadAssembly (104ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (42ms)
-		EndReloadAssembly (512ms)
-			LoadAssemblies (41ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (192ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (184ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (41ms)
-				ProcessInitializeOnLoadAttributes (116ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (2ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3371 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (48.9 KB). Loaded Objects now: 3839.
-Memory consumption went from 114.3 MB to 114.3 MB.
-Total: 3.123917 ms (FindLiveObjects: 0.209291 ms CreateObjectMapping: 0.044334 ms MarkObjects: 2.799041 ms  DeleteObjects: 0.070583 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002102 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x16b94f000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/sergei/MyFirstProject/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/sergei/MyFirstProject/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.696 seconds
-Domain Reload Profiling:
-	ReloadAssembly (696ms)
-		BeginReloadAssembly (109ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (47ms)
-		EndReloadAssembly (525ms)
-			LoadAssemblies (47ms)
-			RebuildTransferFunctionScriptingTraits (2ms)
-			SetupTypeCache (199ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (182ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (41ms)
-				ProcessInitializeOnLoadAttributes (113ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (2ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.04 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3371 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (49.0 KB). Loaded Objects now: 3842.
-Memory consumption went from 114.4 MB to 114.3 MB.
-Total: 2.723000 ms (FindLiveObjects: 0.112625 ms CreateObjectMapping: 0.040166 ms MarkObjects: 2.493875 ms  DeleteObjects: 0.075458 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002232 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x16b94f000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/sergei/MyFirstProject/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/sergei/MyFirstProject/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.645 seconds
-Domain Reload Profiling:
-	ReloadAssembly (646ms)
-		BeginReloadAssembly (90ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (497ms)
-			LoadAssemblies (35ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (185ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (179ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (41ms)
-				ProcessInitializeOnLoadAttributes (111ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (2ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3371 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (48.9 KB). Loaded Objects now: 3845.
-Memory consumption went from 114.4 MB to 114.3 MB.
-Total: 2.298959 ms (FindLiveObjects: 0.109542 ms CreateObjectMapping: 0.039417 ms MarkObjects: 2.073458 ms  DeleteObjects: 0.075875 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 3312194.106300 seconds.
+  path: Assets/Supercyan Character Pack Animal People Sample/Prefabs/Simple Movement/High Quality/animal_people_wolf_1_SimpleMovement.prefab
+  artifactKey: Guid(5b4355d6212d0c8439664d1ea3a0ce98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Animal People Sample/Prefabs/Simple Movement/High Quality/animal_people_wolf_1_SimpleMovement.prefab using Guid(5b4355d6212d0c8439664d1ea3a0ce98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb641fdec29ec3940d7a423e83fcf672') in 0.254204 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 153.489272 seconds.
-  path: Assets/Prefabs/WeelRain.prefab
-  artifactKey: Guid(cffcb307ea76940f49098f5b112e6ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/WeelRain.prefab using Guid(cffcb307ea76940f49098f5b112e6ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98a44af3df90b1879b2f47335c166697') in 0.165004 seconds 
+  Time since last request: 0.000058 seconds.
+  path: Assets/Supercyan Character Pack Animal People Sample/Prefabs/Base/Mobile/Mobile_animal_people_wolf_1.prefab
+  artifactKey: Guid(d5b4b9e82e6e45e4283c6435e743b647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Animal People Sample/Prefabs/Base/Mobile/Mobile_animal_people_wolf_1.prefab using Guid(d5b4b9e82e6e45e4283c6435e743b647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c09a62a24d7cc4821e62f995440b5602') in 0.123403 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 113.153053 seconds.
-  path: Assets/Prefabs/Home.prefab
-  artifactKey: Guid(22e92f0abcf49418691409ecb975c8d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Home.prefab using Guid(22e92f0abcf49418691409ecb975c8d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e47309c010cbb3df8ca5a41eed9eb9f') in 0.037727 seconds 
+  Time since last request: 0.000065 seconds.
+  path: Assets/Supercyan Character Pack Animal People Sample/Prefabs/Base/Mobile/Mobile_animal_people_beanie_wolf_1_onGround.prefab
+  artifactKey: Guid(0464f0e72a281604f877d10ca4ff7b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Animal People Sample/Prefabs/Base/Mobile/Mobile_animal_people_beanie_wolf_1_onGround.prefab using Guid(0464f0e72a281604f877d10ca4ff7b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '816080485fb93379bdb2f0728784f8b3') in 0.013609 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.911224 seconds.
-  path: Assets/Prefabs/RainWeel.prefab
-  artifactKey: Guid(3e07df1ddab9b414e9d37874ab3f6d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/RainWeel.prefab using Guid(3e07df1ddab9b414e9d37874ab3f6d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '243f54f45dc1cacb6ed94a957b96bc72') in 0.038816 seconds 
+  Time since last request: 0.000045 seconds.
+  path: Assets/Supercyan Character Pack Animal People Sample/Models/animal_people_backpack_1_freeSample_onGround.fbx
+  artifactKey: Guid(aa8b73cb909bf154ab50f2b4e329cd20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Animal People Sample/Models/animal_people_backpack_1_freeSample_onGround.fbx using Guid(aa8b73cb909bf154ab50f2b4e329cd20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a790cc35b7644111e6dc48e1354bb144') in 0.103624 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.896543 seconds.
-  path: Assets/ht2.unity
-  artifactKey: Guid(0c484cf2730d74a40a529730cd300d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ht2.unity using Guid(0c484cf2730d74a40a529730cd300d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5aca09a3dc3957c3b738ed0d1b96e38') in 0.001413 seconds 
+  Time since last request: 0.000067 seconds.
+  path: Assets/Supercyan Character Pack Animal People Sample/Prefabs/WithAccessoryLogic/High Quality/animal_people_beanie_wolf_1_onWear_WithAccessoryLogic.prefab
+  artifactKey: Guid(78661fff46545d746961e71929694663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Animal People Sample/Prefabs/WithAccessoryLogic/High Quality/animal_people_beanie_wolf_1_onWear_WithAccessoryLogic.prefab using Guid(78661fff46545d746961e71929694663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4c0c9b0b545e97701621e0004b25189') in 0.035472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Supercyan Character Pack Animal People Sample/Prefabs/Base/High Quality/animal_people_wolf_1.prefab
+  artifactKey: Guid(b3d22c566a40cfe45bfc575a822257f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Animal People Sample/Prefabs/Base/High Quality/animal_people_wolf_1.prefab using Guid(b3d22c566a40cfe45bfc575a822257f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aa2b98eb0815afe931787c4a79e1de2') in 0.012058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Supercyan Character Pack Animal People Sample/Prefabs/Base/High Quality/animal_people_beanie_wolf_1_onWear.prefab
+  artifactKey: Guid(12318cbff4065d342a786caeb2c4e568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Animal People Sample/Prefabs/Base/High Quality/animal_people_beanie_wolf_1_onWear.prefab using Guid(12318cbff4065d342a786caeb2c4e568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04b4e75b7a39a6d3085903c19855408a') in 0.008461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/PhysicalMaterials/Bourcy.physicMaterial
+  artifactKey: Guid(cd9e370dd2340d3408e0fbb69a7b7299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PhysicalMaterials/Bourcy.physicMaterial using Guid(cd9e370dd2340d3408e0fbb69a7b7299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '630b635086d302ba2eee5e14bee7e054') in 0.035582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.516526 seconds.
+  path: Assets/Scenes/ht2 1.unity
+  artifactKey: Guid(a00c906125faf49e08bdac3292203f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ht2 1.unity using Guid(a00c906125faf49e08bdac3292203f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7742dcb3791c61b2689adf90f3ef884d') in 0.000981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 82.989000 seconds.
+  path: Assets/tt.unity
+  artifactKey: Guid(c7f2c46f31264474a9a4d2535e60af1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tt.unity using Guid(c7f2c46f31264474a9a4d2535e60af1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eeb87fad1875cae746d7cf599782585') in 0.000983 seconds 
